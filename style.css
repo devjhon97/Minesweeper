@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#board{
+    border: 2px solid;
+    display: none;
+}
+
+#start > label{
+    display: block;
+}
+
+#start > p {
+    margin-bottom: 10px;
+}
+
+#start > button {
+    width: 30vw;
+    height: 7vh;
+    display: block;
+    margin: 10px auto;
+    font-size: x-large;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
