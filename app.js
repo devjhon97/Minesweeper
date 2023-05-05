@@ -17,7 +17,7 @@ btn.onclick = () => {
     for(let node of nivel){
         if(node.checked){
             tiles = node.parentNode.id**2;
-            break
+            break;
         }
     }
 
