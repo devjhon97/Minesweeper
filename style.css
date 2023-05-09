@@ -13,6 +13,8 @@ body{
 #board{
     border: 2px solid;
     display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #start > label{
@@ -32,4 +34,8 @@ body{
     border-radius: 5px;
     border: 1px solid black;
     cursor: pointer;
+}
+
+.tiles{
+    border: 1px solid;
 }
