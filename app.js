@@ -32,12 +32,8 @@ function createGame(area){
 
     for(let row = 0; row < tiles.length; row++){
         for(let column = 0; column < tiles[row].length; column++){
-            /*tiles[row][column].style.width = board.style.width/area+"px";
-            tiles[row][column].style.height = board.style.height/area+"px";*/
             tiles[row][column].classList.add("tiles");
             board.appendChild(tiles[row][column]);
         }
     }
-
-    console.log(tiles);
 }
