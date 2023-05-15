@@ -13,8 +13,6 @@ body{
 #board{
     border: 2px solid;
     display: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 #start > label{
@@ -38,4 +36,7 @@ body{
 
 .tiles{
     border: 1px solid;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
 }
